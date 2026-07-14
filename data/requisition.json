@@ -1,0 +1,122 @@
+{
+  "Disclaimer": "Synthetic data for a coding exercise — not a real patient, provider, order data",
+  "resourceType": "TestRequisition",
+  "requisitionId": "REQ-2026-0004821",
+  "orderDate": "2026-07-02",
+  "patient": {
+    "name": "John Q. Doe",
+    "mrn": "MRN-778201",
+    "dateOfBirth": "2023-02-09",
+    "ageAtOrder": "3 years 4 months",
+    "sex": "Male",
+    "guardian": "Jane Doe (mother)"
+  },
+  "insurance": {
+    "payer": "UnitedHealthcare Commercial",
+    "planName": "Choice Plus PPO",
+    "memberId": "MBR-982340017",
+    "groupNumber": "GRP-5540",
+    "subscriber": "Jane Doe",
+    "relationshipToSubscriber": "Child"
+  },
+  "orderingProvider": {
+    "name": "Jane Roe, MD",
+    "credentials": "MD, FACMG",
+    "specialty": "Clinical Genetics (ABMGG board-certified medical geneticist)",
+    "npi": "1992300017",
+    "practice": "Example Children's Hospital — Division of Medical Genetics",
+    "address": "123 Example Avenue, Anytown, OH 45044",
+    "phone": "(555) 555-0142",
+    "fax": "(555) 555-0143"
+  },
+  "performingLaboratory": {
+    "name": "Acme Genomics Laboratory",
+    "cliaId": "00D0000000",
+    "address": "456 Example Parkway, Anytown, MA 02142"
+  },
+  "test": {
+    "name": "Whole Exome Sequencing — Trio (proband plus both biological parents as comparators)",
+    "methodology": "Whole exome sequencing with concurrent comparator (trio) analysis",
+    "setting": "Outpatient",
+    "cptCodes": [
+      {
+        "code": "0214U",
+        "role": "Proband exome",
+        "units": 1,
+        "description": "Rare diseases, whole exome and mitochondrial DNA sequence analysis, blood or saliva, proband"
+      },
+      {
+        "code": "0215U",
+        "role": "Comparator exome — biological mother",
+        "units": 1,
+        "description": "Rare diseases, whole exome and mitochondrial DNA sequence analysis, each comparator exome"
+      },
+      {
+        "code": "0215U",
+        "role": "Comparator exome — biological father",
+        "units": 1,
+        "description": "Rare diseases, whole exome and mitochondrial DNA sequence analysis, each comparator exome"
+      }
+    ],
+    "specimen": {
+      "proband": "Buccal swab collected 2026-07-02",
+      "mother": "Buccal swab collected 2026-07-02",
+      "father": "Buccal swab collected 2026-07-02"
+    }
+  },
+  "indication": {
+    "clinicalStatement": "Undiagnosed neurodevelopmental disorder with suspected genetic etiology; global developmental delay, congenital hypotonia, dysmorphic features, and failure to thrive. First-tier genetic and metabolic workup non-diagnostic.",
+    "icd10Codes": [
+      {
+        "code": "F88",
+        "description": "Other disorders of psychological development (global developmental delay)"
+      },
+      {
+        "code": "P94.2",
+        "description": "Congenital hypotonia"
+      },
+      {
+        "code": "Q18.9",
+        "description": "Congenital malformation of face and neck, unspecified (dysmorphic features)"
+      },
+      {
+        "code": "R62.51",
+        "description": "Failure to thrive (child)"
+      }
+    ]
+  },
+  "attachments": [
+    {
+      "attachmentId": "DOC-55019",
+      "type": "Clinical Genetics Consultation Note",
+      "date": "2026-07-01",
+      "file": "clinical-document.json"
+    }
+  ],
+  "geneticCounseling": {
+    "offered": true,
+    "provided": true,
+    "date": "2026-07-01",
+    "by": "Example Children's Hospital — Genetic Counseling (Certified Genetic Counselor)"
+  },
+  "priorDetermination": {
+    "type": "Prior Authorization",
+    "determination": "Denied",
+    "determinationDate": "2026-07-10",
+    "referenceNumber": "AUTH-5540912",
+    "reviewedBy": "Plan Medical Director review",
+    "citedPolicyNumber": "2026T0589AA",
+    "denialReasonSummary": "Not medically necessary — insufficient documentation.",
+    "denialRationale": "Coverage for the requested whole exome sequencing (CPT 0214U, 0215U) is denied. Based on the information submitted, the request does not meet the plan's medical necessity criteria under Policy 2026T0589AA. Specifically: (1) the documentation does not establish that a single-gene or targeted panel test was performed prior to exome sequencing; and (2) the documentation does not sufficiently establish that the member's clinical presentation meets the required phenotypic criteria. If you believe this determination is incorrect, you may submit an appeal with additional supporting clinical documentation.",
+    "appealRights": {
+      "appealAvailable": true,
+      "appealWindowDays": 180,
+      "appealDeadline": "2027-01-06",
+      "submitTo": {
+        "attention": "UnitedHealthcare — Appeals and Grievances",
+        "address": "P.O. Box 1000, Anytown, UT 84000",
+        "fax": "(555) 555-0199"
+      }
+    }
+  }
+}

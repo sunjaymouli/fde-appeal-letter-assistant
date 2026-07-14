@@ -1,0 +1,76 @@
+{
+  "Disclaimer": "Synthetic data for a coding exercise — not a real patient or clinical record.",
+  "resourceType": "ClinicalDocument",
+  "attachmentId": "DOC-55019",
+  "documentType": "Clinical Genetics Consultation Note",
+  "documentDate": "2026-07-01",
+  "linkedRequisitionId": "REQ-2026-0004821",
+  "author": {
+    "name": "Jane Roe, MD",
+    "credentials": "MD, FACMG",
+    "specialty": "Clinical Genetics (ABMGG board-certified medical geneticist)",
+    "practice": "Example Children's Hospital — Division of Medical Genetics"
+  },
+  "patient": {
+    "name": "John Q. Doe",
+    "mrn": "MRN-778201",
+    "dateOfBirth": "2023-02-09",
+    "ageAtVisit": "3 years 4 months",
+    "sex": "Male"
+  },
+  "sections": {
+    "reasonForReferral": "3-year-old male referred by general pediatrics for genetics evaluation of global developmental delay, longstanding hypotonia, dysmorphic features, and poor growth. Prior first-tier genetic and metabolic testing has been non-diagnostic. Purpose of visit is to determine whether broader genomic testing is indicated to establish a unifying diagnosis.",
+    "historyOfPresentIllness": "John was born at 39 weeks by spontaneous vaginal delivery after an uncomplicated pregnancy; birth weight was at the 15th percentile. Hypotonia ('floppiness') was noted in the newborn period and persisted through infancy, with a poor suck and feeding difficulties requiring feeding therapy. He has never had seizures. Motor and language milestones have been globally delayed: he did not sit independently until 12 months, walked at 26 months, and at 3 years 4 months uses fewer than 10 single words with no two-word combinations. He is followed by physical therapy, occupational therapy, and speech therapy. Growth has been persistently poor despite adequate caloric intake and a normal GI evaluation.",
+    "developmentalHistory": "Global delays across gross motor, fine motor, expressive and receptive language, and adaptive domains. No history of developmental regression. No autistic features that meet criteria on screening.",
+    "priorDiagnosticWorkup": [
+      {
+        "test": "Chromosomal microarray analysis (CMA)",
+        "date": "2024-11",
+        "result": "No clinically significant copy number variants; no pathogenic or likely pathogenic findings."
+      },
+      {
+        "test": "Fragile X (FMR1) CGG repeat analysis",
+        "date": "2024-11",
+        "result": "Normal (29 CGG repeats); no expansion."
+      },
+      {
+        "test": "State newborn screen",
+        "date": "2023-02",
+        "result": "Normal / no conditions flagged."
+      },
+      {
+        "test": "Plasma amino acids, urine organic acids, plasma acylcarnitine profile",
+        "date": "2025-01",
+        "result": "No abnormalities suggestive of an inborn error of metabolism."
+      },
+      {
+        "test": "Creatine kinase (CK)",
+        "date": "2025-01",
+        "result": "Within normal limits."
+      },
+      {
+        "test": "Thyroid function (TSH, free T4)",
+        "date": "2025-01",
+        "result": "Normal."
+      },
+      {
+        "test": "Brain MRI",
+        "date": "2025-03",
+        "result": "Nonspecific mildly delayed myelination; no malformation, no diagnostic pattern."
+      }
+    ],
+    "familyHistory": "Non-consanguineous parents. One older sister, age 6, is healthy and developmentally typical. No family history of intellectual disability, congenital anomalies, or known genetic conditions. Parents are both healthy and available for comparator (trio) testing.",
+    "physicalExam": {
+      "growth": "Weight and height below the 3rd percentile for age (failure to thrive); head circumference at the 5th percentile (relative microcephaly).",
+      "dysmorphology": "Notable for a broad forehead, hypertelorism, a short upturned nose, low-set ears, a thin upper lip, and bilateral fifth-finger clinodactyly. The constellation of features is not recognizable as any specific, well-delineated syndrome.",
+      "neurologic": "Diffuse hypotonia with reduced axial and appendicular tone; deep tendon reflexes present and symmetric; no focal deficits.",
+      "cardiac": "No murmur; prior echocardiogram normal.",
+      "other": "No hepatosplenomegaly; skin exam unremarkable."
+    },
+    "developmentalAssessment": "Formal developmental testing (Bayley-4) documents functioning in the range of global developmental delay, with all domains 2 or more standard deviations below age expectation.",
+    "assessment": "3-year-old male with global developmental delay, congenital hypotonia, multiple dysmorphic features involving more than one organ system, relative microcephaly, and failure to thrive. The presentation is consistent with an undiagnosed, likely monogenic neurodevelopmental disorder of suspected genetic etiology. The clinical picture does not fit any single well-delineated genetic syndrome, and first-tier targeted testing (chromosomal microarray and Fragile X), metabolic testing, and neuroimaging have been non-diagnostic. No single-gene or targeted panel test is expected to be adequate given the non-specific, multi-system presentation.",
+    "medicalManagementImpact": "Establishing a molecular diagnosis is expected to directly change management: it would define condition-specific surveillance (e.g., cardiac, renal, ophthalmologic, or endocrine monitoring depending on the gene involved), guide subspecialty referrals, inform prognosis and anticipatory guidance, end further non-diagnostic 'diagnostic odyssey' testing, and provide accurate recurrence-risk counseling for the family, who are considering another pregnancy.",
+    "plan": "Recommend whole exome sequencing with trio (comparator) analysis of both biological parents to maximize diagnostic yield and variant interpretation. Genetic counseling was provided to the family on 2026-07-01, including a discussion of the benefits, limitations, and possible outcomes of testing. Requisition submitted to Acme Genomics Laboratory.",
+    "geneticCounseling": "Provided 2026-07-01 by a certified genetic counselor; family verbalized understanding and consented to trio exome testing."
+  }
+}
