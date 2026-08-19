@@ -1,0 +1,92 @@
+{
+  "recordType": "TestRequisition",
+  "requisitionId": "REQ-2026-0007394",
+  "laboratoryAccessionNumber": "G26-047193",
+  "orderDate": "2026-07-06",
+  "patient": {
+    "name": "Maria L. Santos",
+    "mrn": "MRN-664912",
+    "dateOfBirth": "1968-02-14",
+    "ageAtOrder": "58 years",
+    "sex": "Female"
+  },
+  "insurance": {
+    "payer": "UnitedHealthcare Commercial",
+    "planName": "Choice Plus PPO",
+    "memberId": "MBR-740193285",
+    "groupNumber": "GRP-6218",
+    "subscriber": "Maria L. Santos",
+    "relationshipToSubscriber": "Self"
+  },
+  "orderingProvider": {
+    "name": "Elena Park, MD, MS, FACMG",
+    "credentials": "MD, MS, FACMG",
+    "specialty": "Clinical Genetics and Genomics (Cancer Genetics)",
+    "npi": "1881200046",
+    "practice": "Riverview Cancer Institute — Hereditary Cancer Clinic",
+    "address": "1200 West Broad Street, Columbus, OH 43215",
+    "phone": "(614) 555-0142",
+    "fax": "(614) 555-0143"
+  },
+  "performingLaboratory": {
+    "name": "Commonwealth Molecular Diagnostics",
+    "cliaId": "00D0000000",
+    "address": "75 Discovery Way, Cambridge, MA 02142"
+  },
+  "test": {
+    "name": "Hereditary Breast Cancer Panel — Germline (13 genes)",
+    "methodology": "Next-generation sequencing with deletion and duplication analysis",
+    "cptCodes": [
+      {
+        "code": "81432",
+        "role": "Hereditary breast cancer multigene panel",
+        "units": 1,
+        "description": "Hereditary breast cancer-related disorders, genomic sequence analysis panel, 5 or more genes"
+      }
+    ],
+    "genes": [
+      "ATM",
+      "BARD1",
+      "BRCA1",
+      "BRCA2",
+      "BRIP1",
+      "CDH1",
+      "CHEK2",
+      "PALB2",
+      "PTEN",
+      "RAD51C",
+      "RAD51D",
+      "STK11",
+      "TP53"
+    ],
+    "specimen": {
+      "type": "Peripheral whole blood",
+      "container": "EDTA tube",
+      "collectedDate": "2026-07-06"
+    }
+  },
+  "indication": {
+    "clinicalStatement": "Newly diagnosed grade 3 invasive ductal carcinoma of the right breast. ER and PR staining are less than 1%, and HER2 immunohistochemistry is 1+ (negative). Germline testing may affect systemic therapy, surgical planning, future cancer surveillance, and risk assessment for relatives.",
+    "icd10Codes": ["C50.411", "Z17.1"]
+  },
+  "recordsProvidedWithOrder": [
+    {
+      "attachmentId": "DOC-66104",
+      "type": "Cancer Genetics Consultation Note",
+      "date": "2026-07-03",
+      "file": "clinical-document.json"
+    },
+    {
+      "attachmentId": "PATH-88421",
+      "type": "Breast Core Biopsy Pathology Report",
+      "date": "2026-07-02",
+      "file": "pathology-report.json"
+    }
+  ],
+  "geneticCounseling": {
+    "offered": true,
+    "provided": true,
+    "date": "2026-07-03",
+    "by": "Elena Park, MD, MS, FACMG"
+  }
+}

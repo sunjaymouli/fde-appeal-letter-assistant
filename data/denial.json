@@ -1,0 +1,36 @@
+{
+  "recordType": "ClaimDenial",
+  "denialId": "DEN-2026-0051843",
+  "claimId": "CLM-2026-0093814",
+  "payerClaimControlNumber": "UHC-CCN-84276195",
+  "payer": "UnitedHealthcare Commercial",
+  "determination": "Denied",
+  "adjudicationDate": "2026-07-20",
+  "member": {
+    "name": "Maria L. Santos",
+    "memberId": "MBR-740193285"
+  },
+  "service": {
+    "dateOfService": "2026-07-06",
+    "billingProvider": "Commonwealth Molecular Diagnostics",
+    "cptCode": "81432",
+    "chargeAmount": 2750,
+    "currency": "USD"
+  },
+  "deniedClaimLines": [1],
+  "claimAdjustment": {
+    "groupCode": "CO",
+    "reasonCode": "50",
+    "adjustmentAmount": 2750
+  },
+  "appealRights": {
+    "appealAvailable": true,
+    "appealWindowDays": 180,
+    "appealDeadline": "2027-01-16",
+    "submitTo": {
+      "attention": "UnitedHealthcare — Claims Appeals and Grievances",
+      "address": "P.O. Box 1000, Anytown, UT 84000",
+      "fax": "(555) 555-0199"
+    }
+  }
+}

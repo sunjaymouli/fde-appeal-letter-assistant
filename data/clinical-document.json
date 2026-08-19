@@ -1,0 +1,31 @@
+{
+  "recordType": "ClinicalDocument",
+  "attachmentId": "DOC-66104",
+  "documentType": "Cancer Genetics Consultation Note",
+  "documentDate": "2026-07-03",
+  "author": {
+    "name": "Elena Park, MD, MS, FACMG",
+    "credentials": "MD, MS, FACMG",
+    "specialty": "Clinical Genetics and Genomics (Cancer Genetics)",
+    "npi": "1881200046",
+    "practice": "Riverview Cancer Institute — Hereditary Cancer Clinic"
+  },
+  "patient": {
+    "name": "Maria L. Santos",
+    "mrn": "MRN-664912",
+    "dateOfBirth": "1968-02-14",
+    "ageAtVisit": "58 years",
+    "sex": "Female"
+  },
+  "sections": {
+    "reasonForReferral": "Maria is a 58-year-old woman referred for cancer genetics evaluation after a new diagnosis of invasive ductal carcinoma of the right breast. The purpose of the visit is to assess hereditary cancer risk and determine whether germline testing could inform her care.",
+    "oncologicHistory": "A screening mammogram identified a 2.7 cm mass in the upper-outer quadrant of the right breast. Ultrasound-guided core biopsy performed on 2026-06-30 showed grade 3 invasive ductal carcinoma. Estrogen receptor and progesterone receptor staining were both less than 1%, and HER2 immunohistochemistry was 1+ (negative). She has no prior history of cancer.",
+    "personalMedicalHistory": "Medical history is notable for well-controlled hypertension. The uterus and ovaries are intact. She has not previously had germline cancer-susceptibility testing.",
+    "familyHistory": "Her mother is alive at age 81 with no cancer history. Her father died at age 74 from myocardial infarction. One brother, age 55, has no cancer history. A maternal aunt was diagnosed with lung cancer at age 76 after a long smoking history. There is no known breast, ovarian, pancreatic, prostate, colorectal, or endometrial cancer in first- or second-degree relatives. The family is not known to be of Ashkenazi Jewish ancestry.",
+    "pathologySummary": "Right breast core biopsy PATH-88421 documents invasive ductal carcinoma, Nottingham grade 3. ER is negative (<1%), PR is negative (<1%), and HER2 is negative (IHC 1+).",
+    "assessment": "The patient's new breast cancer diagnosis and receptor results raise concern for a hereditary cancer susceptibility. A focused multigene panel is appropriate because several clinically actionable genes beyond BRCA1 and BRCA2 are associated with hereditary breast cancer.",
+    "medicalManagementImpact": "A pathogenic germline finding could affect systemic therapy options, including potential eligibility for PARP-directed therapy; influence breast surgical planning and future breast surveillance; prompt risk management for ovarian or other associated cancers; and allow targeted testing and surveillance for relatives.",
+    "plan": "Recommend a focused germline hereditary breast cancer panel with sequencing and deletion/duplication analysis. Genetic counseling was provided, including possible positive, negative, and uncertain results; protections and limits related to genetic information; and implications for treatment, surveillance, and family members.",
+    "geneticCounseling": "Provided on 2026-07-03 by the Hereditary Cancer Clinic. Maria demonstrated understanding and elected to proceed with testing."
+  }
+}

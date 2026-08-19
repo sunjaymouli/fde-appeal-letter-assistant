@@ -1,0 +1,42 @@
+{
+  "recordType": "DiagnosticReport",
+  "attachmentId": "PATH-88421",
+  "accessionNumber": "S26-18473",
+  "documentType": "Breast Core Biopsy Pathology Report",
+  "documentDate": "2026-07-02",
+  "status": "Final",
+  "signingPathologist": "Dana Whitfield, MD",
+  "patient": {
+    "name": "Maria L. Santos",
+    "mrn": "MRN-664912",
+    "dateOfBirth": "1968-02-14",
+    "sex": "Female"
+  },
+  "specimen": {
+    "site": "Right breast, upper-outer quadrant",
+    "procedure": "Ultrasound-guided core needle biopsy",
+    "collectedDate": "2026-06-30",
+    "receivedDate": "2026-06-30"
+  },
+  "finalDiagnosis": {
+    "diagnosis": "Invasive ductal carcinoma",
+    "nottinghamGrade": "Grade 3 of 3"
+  },
+  "biomarkers": {
+    "estrogenReceptor": {
+      "result": "Negative",
+      "method": "Immunohistochemistry",
+      "percentNuclearStaining": "<1%"
+    },
+    "progesteroneReceptor": {
+      "result": "Negative",
+      "method": "Immunohistochemistry",
+      "percentNuclearStaining": "<1%"
+    },
+    "her2": {
+      "result": "Negative",
+      "method": "Immunohistochemistry",
+      "score": "1+"
+    }
+  }
+}

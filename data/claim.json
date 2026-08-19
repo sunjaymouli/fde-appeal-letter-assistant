@@ -1,0 +1,60 @@
+{
+  "recordType": "HealthcareClaim",
+  "claimId": "CLM-2026-0093814",
+  "payerClaimControlNumber": "UHC-CCN-84276195",
+  "patientControlNumber": "PT-664912-0706",
+  "laboratoryAccessionNumber": "G26-047193",
+  "claimType": "Professional",
+  "claimStatus": "Denied",
+  "requisitionId": "REQ-2026-0007394",
+  "patient": {
+    "name": "Maria L. Santos",
+    "mrn": "MRN-664912",
+    "dateOfBirth": "1968-02-14",
+    "sex": "Female"
+  },
+  "insurance": {
+    "payer": "UnitedHealthcare Commercial",
+    "planName": "Choice Plus PPO",
+    "memberId": "MBR-740193285",
+    "groupNumber": "GRP-6218",
+    "subscriber": "Maria L. Santos",
+    "relationshipToSubscriber": "Self"
+  },
+  "billingProvider": {
+    "name": "Commonwealth Molecular Diagnostics",
+    "npi": "1003000001",
+    "taxId": "00-0000001",
+    "cliaId": "00D0000000",
+    "address": "75 Discovery Way, Cambridge, MA 02142"
+  },
+  "orderingProvider": {
+    "name": "Elena Park, MD, MS, FACMG",
+    "credentials": "MD, MS, FACMG",
+    "specialty": "Clinical Genetics and Genomics (Cancer Genetics)",
+    "npi": "1881200046",
+    "practice": "Riverview Cancer Institute — Hereditary Cancer Clinic"
+  },
+  "service": {
+    "dateOfService": "2026-07-06",
+    "placeOfServiceCode": "81",
+    "placeOfServiceDescription": "Independent Laboratory",
+    "diagnosisCodes": ["C50.411", "Z17.1"]
+  },
+  "submission": {
+    "submittedDate": "2026-07-10",
+    "receivedDate": "2026-07-11",
+    "totalBilledAmount": 2750,
+    "currency": "USD"
+  },
+  "claimLines": [
+    {
+      "lineNumber": 1,
+      "cptCode": "81432",
+      "description": "Hereditary breast cancer-related disorders, genomic sequence analysis panel, 5 or more genes, including sequence and copy-number variant analysis",
+      "units": 1,
+      "billedAmount": 2750,
+      "status": "Denied"
+    }
+  ]
+}
